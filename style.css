@@ -1,0 +1,145 @@
+body{
+	background-color: #0174DF;
+	font-size:1.5vw;
+	padding: 0,5%;
+	font-family: verdana;
+}
+
+
+.left, .right {
+  float:left;
+  width:25%; 
+  background: linear-gradient(to bottom, #58ACFA,#0174DF,#81BEF7);
+  height: 25vw;
+  text-align: justify;
+}
+
+.main {
+  float:left;
+  width:50%; 
+  background: linear-gradient(to bottom, #58ACFA,#0174DF,#81BEF7);
+  height: 25vw;
+  text-align: center;
+}
+
+.main p, .left p, .container h3{
+	padding:   0 0.5vw;
+}
+
+.right ul>li{
+	margin-bottom: 10px;
+}
+
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%; 
+  }
+}
+.cabecalho img{
+	width: 100%;
+}
+
+.cabecalho .logo{
+	width: 20%;
+}
+
+.cabecalho .dados{
+	width:75%;
+}
+.comentario{
+	width: 100%;
+	margin-top:50px;
+
+
+}
+footer{
+	text-align: center;
+	font-size: 1vw;
+}
+footer>div{
+	font-size: 0.5vw;
+}
+input{
+	font-size: 1vw;
+}
+.cabecalho div{
+	display:inline-block;
+}
+
+.cabecalho>div>h1{
+	display:inline-block;
+}
+
+.comentario textarea{
+	width: 100%;
+}
+
+.comentario{
+	width: 100%;
+	margin-top:50px;
+
+	
+}
+.comentario button{
+	float:right;
+
+}
+.cabecalho div{
+	display:inline-block;
+}
+
+.cabecalho>div>h1{
+	display:inline-block;
+}
+
+.comentario textarea{
+	width: 100%;
+	text-align: left;
+}
+.comentario button{
+	display:inline-block;
+	float: right;
+}
+.comentario input{
+	min-width: 100%;
+	text-align: left;
+}
+.comentario-usuario, .comentario-sistema{
+	background-color: #0478E1;
+	margin: 3px 0 5px;
+	padding: 10px; 
+	border-bottom: 1px solid #006ed4;
+}
+.comentario-usuario p, .comentario-sistema p{
+	font-size: 0.9vw;
+	color: #222222;
+	font-weight: normal;
+	margin: 0;
+}
+
+@media (max-width:800px) {
+  .comentario-usuario p, .comentario-sistema p{
+	font-size: 1.5vw;
+  }
+}
+aside{
+	text-align: center;
+}
+a:link {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+
+footer div{
+	font-size: 1vw;
+}
+.comentario h5{
+	 margin: 0;
+  padding: 0;
+  border: 0;
+
+}
